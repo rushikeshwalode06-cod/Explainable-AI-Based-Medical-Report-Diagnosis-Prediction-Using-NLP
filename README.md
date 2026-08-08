@@ -135,3 +135,15 @@ Predicted Class
 The project uses XAI techniques to make predictions easier to understand.
 LIME focuses on explaining individual predictions.
 SHAP analyzes feature contributions to model behavior.
+
+## 🧠 Explainable AI
+
+🔎 LIME — Local Interpretable Model-Agnostic Explanations
+
+LIME explains an individual prediction by identifying features that influence the model's decision.For a medical report, important words or terms can be highlighted to help understand which parts of the text contributed to the prediction.
+
+🧠 SHAP — SHapley Additive exPlanations
+
+SHAP provides feature-attribution information based on Shapley values.
+
+It can be used to analyze which features have a positive or negative contribution toward model predictions.Important: XAI explanations describe how the machine-learning model behaves. They should not be interpreted as medical or causal explanations.
