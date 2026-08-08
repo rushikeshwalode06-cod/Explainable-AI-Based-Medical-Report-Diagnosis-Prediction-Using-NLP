@@ -13,42 +13,30 @@ The project converts medical text into numerical representations using TF-IDF, a
 
 ## ✨ Key Features
 
-Feature
-
-Description
 
 📝 Medical Text Input
-
-Accepts medical reports written in natural language
+  Accepts medical reports written in natural language
 
 🧹 NLP Processing
-
-Processes and transforms textual medical information
+  Processes and transforms textual medical information
 
 🔤 TF-IDF
-
-Converts text into numerical feature vectors
+   Converts text into numerical feature vectors
 
 🤖 ML Prediction
-
-Predicts the learned diagnosis/class
+   Predicts the learned diagnosis/class
 
 📊 Probability
-
-Displays prediction probability when supported by the model
+   Displays prediction probability when supported by the model
 
 🔎 LIME
-
-Explains individual predictions using important words/features
+   Explains individual predictions using important words/features
 
 🧠 SHAP
-
-Provides feature-level model explainability
+   Provides feature-level model explainability
 
 💾 Model Saving
-
-Stores trained model and TF-IDF vectorizer using Joblib
+   Stores trained model and TF-IDF vectorizer using Joblib
 
 🌐 Streamlit Ready
-
-Can be deployed as an interactive web applicatio
+   Can be deployed as an interactive web application
