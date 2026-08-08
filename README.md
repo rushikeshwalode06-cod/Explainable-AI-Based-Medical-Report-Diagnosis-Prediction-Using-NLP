@@ -145,3 +145,43 @@ LIME explains an individual prediction by identifying features that influence th
 🧠 SHAP — Shapley Additive Explanations
 
 SHAP provides feature-attribution information based on Shapley values. It can be used to analyze which features have a positive or negative contribution toward model predictions.Important: XAI explanations describe how the machine-learning model behaves. They should not be interpreted as medical or causal explanations.
+
+## 💾 Saved Model Components
+
+The project saves the trained components using Joblib.
+
+import joblib
+
+joblib.dump(model, "medical_model.pkl")
+joblib.dump(tfidf, "metfidf.pkl")
+
+## 🛠️ Technology Stack
+
+1. Programming Language
+
+   🐍 Python
+
+2. Data & ML
+
+    Pandas
+    NumPy
+    Scikit-learn
+    Joblib
+3. NLP
+
+    TF-IDF Vectorization
+    Text preprocessing techniques
+
+4. Explainable AI
+
+   LIME
+   SHAP
+
+5. Visualization
+
+   Matplotlib
+
+6. Deployment
+
+   Streamlit
+   Jupyter Notebook
