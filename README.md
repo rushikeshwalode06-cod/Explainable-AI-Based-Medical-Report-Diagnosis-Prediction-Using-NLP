@@ -1,7 +1,7 @@
 # Explainable-AI-Based-Medical-Report-Diagnosis-Prediction-Using-NLP
 Explainable AI-Based Medical Report Diagnosis Prediction uses NLP and machine learning to analyze medical reports and predict possible diagnoses. TF-IDF extracts important text features, while LIME and SHAP provide model explanations, improving transparency and interpretability. The system can be deployed using Streamlit.
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Explainable AI-Based Medical Report Diagnosis Prediction Using NLP is an end-to-end Artificial Intelligence project that analyzes unstructured medical report text and predicts a possible diagnosis/class using Natural Language Processing (NLP) and Machine Learning.
 
@@ -142,8 +142,6 @@ SHAP analyzes feature contributions to model behavior.
 
 LIME explains an individual prediction by identifying features that influence the model's decision.For a medical report, important words or terms can be highlighted to help understand which parts of the text contributed to the prediction.
 
-🧠 SHAP — SHapley Additive exPlanations
+🧠 SHAP — Shapley Additive Explanations
 
-SHAP provides feature-attribution information based on Shapley values.
-
-It can be used to analyze which features have a positive or negative contribution toward model predictions.Important: XAI explanations describe how the machine-learning model behaves. They should not be interpreted as medical or causal explanations.
+SHAP provides feature-attribution information based on Shapley values. It can be used to analyze which features have a positive or negative contribution toward model predictions.Important: XAI explanations describe how the machine-learning model behaves. They should not be interpreted as medical or causal explanations.
