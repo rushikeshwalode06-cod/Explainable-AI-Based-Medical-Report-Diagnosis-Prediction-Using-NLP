@@ -155,6 +155,10 @@ import joblib
 joblib.dump(model, "medical_model.pkl")
 joblib.dump(tfidf, "metfidf.pkl")
 
+## Machine Learning Model 
+
+  • RandomForestClassifier
+
 ## 🛠️ Technology Stack
 
 1. Programming Language
@@ -185,3 +189,37 @@ joblib.dump(tfidf, "metfidf.pkl")
 
    Streamlit
    Jupyter Notebook
+
+## 📈 Model Evaluation
+
+For a complete academic project, the model should be evaluated using appropriate classification metrics such as:
+
+• Accuracy
+• Precision
+• Recall
+• F1-Score
+• Confusion Matrix
+• Classification Report
+For imbalanced datasets, precision, recall, F1-score, and class-wise performance should be considered alongside accuracy.
+
+## ⭐ Keywords
+
+• Artificial Intelligence
+• Machine Learning
+• Natural Language Processing
+• NLP
+• TF-IDF
+• Medical Text Classification
+• Diagnosis Prediction
+• Explainable AI
+• XAI
+• LIME
+• SHAP
+• Python
+• Scikit-learn
+• Streamlit
+• Healthcare AI
+
+## Conclusion
+
+The Explainable AI-Based Medical Report Diagnosis Prediction project demonstrates how Natural Language Processing and Machine Learning can be combined to analyze medical reports and predict possible diagnoses. TF-IDF effectively converts medical text into meaningful features, while LIME and SHAP improve model transparency by explaining the factors behind predictions. The project provides a strong foundation for developing intelligent, interpretable, and user-friendly healthcare AI applications, while emphasizing that predictions should support—not replace—professional medical judgment.
