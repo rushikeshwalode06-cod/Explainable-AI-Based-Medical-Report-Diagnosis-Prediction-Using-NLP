@@ -60,3 +60,42 @@ The project converts medical text into numerical representations using TF-IDF, a
 8. Apply Explainable AI to understand model behavior.
 9. Save trained components for reuse and deployment.
 10. Provide a foundation for an interactive AI-based medical text application.
+
+## 🧩 System Architecture
+
+                    ┌───────────────────────┐
+                    │   Medical Report      │
+                    │      Text Input       │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │   Text Preprocessing  │
+                    │ Cleaning / Processing │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │    TF-IDF Vectorizer  │
+                    │ Feature Extraction    │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │ Machine Learning      │
+                    │ Classification Model  │
+                    └───────────┬───────────┘
+                                │
+                    ┌───────────┴───────────┐
+                    ▼                       ▼
+          ┌─────────────────┐     ┌──────────────────┐
+          │ Prediction      │     │ Prediction       │
+          │ Diagnosis/Class  │     │ Probability      │
+          └────────┬────────┘     └────────┬─────────┘
+                   │                       │
+                   └───────────┬───────────┘
+                               ▼
+                    ┌───────────────────────┐
+                    │ Explainable AI (XAI) │
+                    │ LIME + SHAP           │
+                    └───────────────────────┘
