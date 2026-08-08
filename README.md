@@ -155,8 +155,7 @@ import joblib
 joblib.dump(model, "medical_model.pkl")
 joblib.dump(tfidf, "metfidf.pkl")
 
-## Machine Learning Model 
-
+## 🤖 Machine Learning Model
   • RandomForestClassifier
 
 ## 🛠️ Technology Stack
