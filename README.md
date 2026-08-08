@@ -47,3 +47,16 @@ The project converts medical text into numerical representations using TF-IDF, a
 
 🌐 Streamlit Ready
    Can be deployed as an interactive web application
+
+## 🎯 Project Objectives
+
+1. The main objectives of this project are:
+2. Analyze unstructured medical reports using NLP.
+3. Extract meaningful textual features from medical information.
+4. Convert medical text into numerical vectors using TF-IDF.
+5. Train a machine-learning classification model.
+6. Predict the diagnosis/class from unseen medical reports.
+7. Display prediction probability where supported.
+8. Apply Explainable AI to understand model behavior.
+9. Save trained components for reuse and deployment.
+10. Provide a foundation for an interactive AI-based medical text application.
