@@ -15,24 +15,31 @@ The project converts medical text into numerical representations using TF-IDF, a
 
 
 📝 Medical Text Input
+
   Accepts medical reports written in natural language
 
 🧹 NLP Processing
+
   Processes and transforms textual medical information
 
 🔤 TF-IDF
+
    Converts text into numerical feature vectors
 
 🤖 ML Prediction
+
    Predicts the learned diagnosis/class
 
 📊 Probability
+
    Displays prediction probability when supported by the model
 
 🔎 LIME
+
    Explains individual predictions using important words/features
 
 🧠 SHAP
+
    Provides feature-level model explainability
 
 💾 Model Saving
