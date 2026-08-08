@@ -11,6 +11,8 @@ The project converts medical text into numerical representations using TF-IDF, a
 
 ⚠️ Important Medical DisclaimerThis project is developed for educational, academic, and research purposes only. It is not a medical device, does not provide professional medical advice, and must not be used as a substitute for diagnosis or treatment by a qualified healthcare professional.
 
+![ml](https://github.com/rushikeshwalode06-cod/Explainable-AI-Based-Medical-Report-Diagnosis-Prediction-Using-NLP/blob/main/explainable_AI_model_img.jpg?raw=true)
+
 ## ✨ Key Features
 
 
