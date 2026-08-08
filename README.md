@@ -97,5 +97,59 @@ The project converts medical text into numerical representations using TF-IDF, a
                                ▼
                     ┌───────────────────────┐
                     │ Explainable AI (XAI) │
-                    │ LIME + SHAP           │
+                    │ LIME + SHAP         
                     └───────────────────────┘
+  ## 🔬 Methodology
+
+1. Data Collection
+
+Medical report text and corresponding diagnosis/class labels are used as the basis for supervised machine-learning classification.
+
+2. Text Preprocessing
+
+The textual reports are prepared for machine learning by applying suitable NLP preprocessing operations.
+Typical preprocessing may include:
+
+Lowercasing
+
+Removing unnecessary characters
+
+Removing unwanted spaces
+
+Tokenization
+
+Stop-word handling
+
+Text normalization
+
+3. Feature Extraction — TF-IDF
+
+Term Frequency–Inverse Document Frequency (TF-IDF) transforms medical text into numerical feature vectors.
+
+It gives higher importance to terms that are useful for distinguishing documents while reducing the importance of very common terms.
+
+4. Model Training
+
+The transformed text features are supplied to a machine-learning classification model.
+
+The trained classifier learns relationships between medical text features and the target diagnosis/class.
+
+5. Prediction
+
+For a new medical report:
+
+Medical Report
+      ↓
+TF-IDF Transformation
+      ↓
+Trained Model
+      ↓
+Predicted Class
+
+6. Explainability
+
+The project uses XAI techniques to make predictions easier to understand.
+
+LIME focuses on explaining individual predictions.
+
+SHAP analyzes feature contributions to model behavior.
