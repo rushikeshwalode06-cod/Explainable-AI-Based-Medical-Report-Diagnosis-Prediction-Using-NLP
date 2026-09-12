@@ -160,36 +160,38 @@ joblib.dump(tfidf, "metfidf.pkl")
 ## 🤖 Machine Learning Model
   • RandomForestClassifier
 
-## 🛠️ Technology Stack
+## ## 🛠️ Technology Stack
 
-1. Programming Language
+### 🐍 Programming Language
 
-   🐍 Python
+* **Python**
 
-2. Data & ML
+### 📊 Data Science & Machine Learning
 
-    Pandas
-    NumPy
-    Scikit-learn
-    Joblib
-3. NLP
+* **Pandas**
+* **NumPy**
+* **Scikit-learn**
+* **Joblib**
 
-    TF-IDF Vectorization
-    Text preprocessing techniques
+### 📝 Natural Language Processing
 
-4. Explainable AI
+* **TF-IDF Vectorization**
+* **Text Preprocessing**
 
-   LIME
-   SHAP
+### 🔍 Explainable AI
 
-5. Visualization
+* **LIME**
+* **SHAP**
 
-   Matplotlib
+### 📈 Data Visualization
 
-6. Deployment
+* **Matplotlib**
 
-   Streamlit
-   Jupyter Notebook
+### 🚀 Deployment & Development
+
+* **Streamlit**
+* **Jupyter Notebook**
+
 
 ## 📈 Model Evaluation
 
