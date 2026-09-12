@@ -223,6 +223,6 @@ For imbalanced datasets, precision, recall, F1-score, and class-wise performance
 • Streamlit
 • Healthcare AI
 
-## Conclusion
+## 🏆 Conclusion
 
 The Explainable AI-Based Medical Report Diagnosis Prediction project demonstrates how Natural Language Processing and Machine Learning can be combined to analyze medical reports and predict possible diagnoses. TF-IDF effectively converts medical text into meaningful features, while LIME and SHAP improve model transparency by explaining the factors behind predictions. The project provides a strong foundation for developing intelligent, interpretable, and user-friendly healthcare AI applications, while emphasizing that predictions should support—not replace—professional medical judgment.
